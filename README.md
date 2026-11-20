@@ -2,9 +2,9 @@
 
 **predictive drive-thru order routing, syncing traffic ETAs with ML prep-time forecasts.**
 
-* → static "ASAP" mobile ordering prevents drive-thrus from operating at full efficiency.
-* → early arrivals clog the pickup window, drinks sit and melt, and long lines make drivers leave.
-* **⚡︎ SmartThru** holds mobile tickets in a virtual queue and fires them at the exact moment needed, your drink finishing right as you pull up.
+* static "ASAP" mobile ordering prevents drive-thrus from operating at full efficiency.
+* early arrivals clog the pickup window, drinks sit and melt, and long lines make drivers leave.
+* **→ SmartThru** holds mobile tickets in a virtual queue and fires them at the exact moment needed, your drink finishing right as you pull up.
 
 ### how it works
 
