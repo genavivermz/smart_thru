@@ -17,7 +17,7 @@
 ### simulation highlights *(1,000 peak hour vehicles)*
 
 * **+33.1% peak throughput:** `23.9 → 31.8 cars/hr` capacity lift
-* **-7.6% line abandonment:** `7.6% → 0.0% customer reneging drop
+* **-7.6% line abandonment:** `7.6% → 0.0% customer reneging drop`
 * **+98,039 est. annual revenue / store:** `+$70,588` incremental gross profit
 * **±15.7s prep forecast MAE:** `0.943 R²` across non-linear rush hour queues
 
