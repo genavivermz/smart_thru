@@ -9,7 +9,7 @@
 ### how it works
 
 1. **prep-time forecasting (`XGBoost`):** trained on 5,000 synthetic rush hour orders with non-linear queue bottlenecks and natural noise. predicts barista prep time ($T_{\text{prep}}$) within **±15.7s MAE (0.943 R²)** using item count, drink complexity, rush hour flags, queue depth, and active baristas.
-2. **spatial geofencing (`Haversine`):** tracks distance to the store and triggers an instant **ASAP** release inside a **200m radius,**avoiding constant GPS polling.
+2. **spatial geofencing (`Haversine`):** tracks distance to the store and triggers an instant **ASAP** release inside a **200m radius,** avoiding constant GPS polling.
 3. **dynamic hold engine:** calculates optimal ticket delay ($D$) with a manual override toggle:
    $$D = \max(0, T_{\text{travel}} - T_{\text{prep}} - T_{\text{buffer}})$$
 
