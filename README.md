@@ -32,7 +32,7 @@
 
 ### quickstart
 
-1. **clone the repository** (`genavivermz/smart_thru`):
+1. **clone the repository:**
    ```bash
    gh repo clone genavivermz/smart_thru
    cd smart_thru
