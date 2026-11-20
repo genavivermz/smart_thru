@@ -32,33 +32,6 @@
 
 ### quickstart
 
-```bash
-git clone https://github.com
-cd smart_thru
-
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-
-python train_model.py
-streamlit run app.py
-```
-
-### 🖥️ Dual-View Dashboard (`Streamlit` + `Plotly`)
-
-* **ML & Routing View:** Tweak driver distance, traffic multipliers, drink complexity, and queue depth to watch the XGBoost model and geofence logic adjust ticket hold windows live.
-* **Store Unit Economics View:** Model store-level revenue lift, throughput velocity, and margin sensitivity across ticket sizes and rush-hour windows.
-
----
-
-### 🛠️ Stack
-
-`Python` · `XGBoost` · `Scikit-Learn` · `Pandas` · `NumPy` · `Streamlit` · `Plotly`
-
----
-
-### 🚀 Quickstart
-
 1. **clone the repository** (`genavivermz/smart_thru`):
    ```bash
    gh repo clone genavivermz/smart_thru
